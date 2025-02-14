@@ -77,7 +77,7 @@ Then, the output of the program should be:
 Hints:
 Note: In case of input data being supplied to the question, it should be assumed to be a console input in a comma-separated form."""
 
-Getting the input from the user 
+# Getting the input from the user 
 X = int(input("Enter the number of rows "))
 Y = int(input("Enter the number of columns "))
 
