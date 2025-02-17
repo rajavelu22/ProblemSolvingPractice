@@ -142,3 +142,92 @@ Hints:
 # Input = int(input("Enter the number to square : "))
 # print(Input**2)
 
+
+##################################################################################################################################################################################################################################################
+
+
+"""
+Question 24
+Level 1
+
+Question:
+    Python has many built-in functions, and if you do not know how to use it, you can read document online or find some books. But Python has a built-in document function for every built-in functions.
+    Please write a program to print some Python built-in functions documents, such as abs(), int(), raw_input()
+    And add document for your own function
+    
+Hints:
+    The built-in document method is __doc__
+"""
+
+# print (abs.__doc__)
+
+# print("##################################################################"*2)
+# print(int.__doc__)
+# print("##################################################################"*2)
+# print(input.__doc__)
+# print("##################################################################"*2)
+# print(dict.get.__doc__)
+
+# def sayHi() :
+#     '''This method will say hi to the user '''
+#     print("Hi User")
+# sayHi()
+# print(sayHi.__doc__)
+
+
+
+##################################################################################################################################################################################################################################################
+
+
+
+
+"""Question 25
+Level 1
+
+Question:
+    Define a class, which have a class parameter and have a same instance parameter.
+
+Hints:
+    Define a instance parameter, need add it in __init__ method
+    You can init a object with construct parameter or set the value later"""
+    
+# I could not understand the question at first but the simple demonstration is to print using class parameter and instance parameter
+    
+class Sample :
+    def __init__(self , Name = None):
+        self.Name = Name 
+        
+Obj = Sample("Raja")
+print(Obj.Name)        
+
+ObjTwo = Sample()
+ObjTwo.Name =  "Velu"
+print(ObjTwo.Name)
+ 
+ 
+ 
+##################################################################################################################################################################################################################################################
+
+
+  
+"""Question 26
+Question:
+Define a function that can accept two strings as input and print the string with maximum length in console. If two strings have the same length, then the function should print all strings line by line.
+
+Hints:
+
+Use len() function to get the length of a string
+""" 
+
+StringOne = input("Enter your String One ")
+StringTwo = input("Enter String Two ")
+
+if len(StringOne) > len(StringTwo) :
+    print ("String One")
+elif len(StringTwo) > len(StringTwo) : 
+    print("String Two")
+else :
+    print("Both are equal ")
+
+
+##################################################################################################################################################################################################################################################
