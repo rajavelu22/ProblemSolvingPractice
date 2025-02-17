@@ -7,17 +7,17 @@ Define a class with a generator which can iterate the numbers, which are divisib
 Hints:
 Consider use yield"""
 
-class Generator :
-    def Start(self) :
-        Start = int(input("Enter the from range for finding number which are divisible by 7 "))   
-        End = int(input())+1
+# class Generator :
+#     def Start(self) :
+#         Start = int(input("Enter the from range for finding number which are divisible by 7 "))   
+#         End = int(input())+1
         
-        num = [x for x in range ( Start , End) if(x%7==0)]
-        return num
+#         num = [x for x in range ( Start , End) if(x%7==0)]
+#         return num
 
-Obj = Generator()
-Output = Obj.Start()
-print(",".join(map(str,Output)))
+# Obj = Generator()
+# Output = Obj.Start()
+# print(",".join(map(str,Output)))
 
 
 ##################################################################################################################################################################################################################################################
@@ -46,22 +46,22 @@ Then, the output of the program should be:
 Hints:
 In case of input data being supplied to the question, it should be assumed to be a console input."""
 
-import math
-Input = input("Enter your travel details on graph ").split(" ")
+# import math
+# Input = input("Enter your travel details on graph ").split(" ")
 
-Up = int(Input[1])
-Down = int(Input[3])
-Left = int(Input[5])
-Right = int(Input[7])
+# Up = int(Input[1])
+# Down = int(Input[3])
+# Left = int(Input[5])
+# Right = int(Input[7])
 
-XTwo = (Up-Down)
-YTwo = (Right-Left)
+# XTwo = (Up-Down)
+# YTwo = (Right-Left)
 
-#Calculating distance travelled using the below formulae
-Dist = math.sqrt((XTwo**2)+(YTwo)**2)
-print(round(Dist))
+# #Calculating distance travelled using the below formulae
+# Dist = math.sqrt((XTwo**2)+(YTwo)**2)
+# print(round(Dist))
 
-Optimized method
+# Optimized method
 
 """import math
 
@@ -120,12 +120,12 @@ Hints
 In case of input data being supplied to the question, it should be assumed to be a console input."""
 
 
-Input = input("Enter your Statement ").split(" ")
-SetInput = set(Input)
-Store = {}
-for element in SetInput :
-    Store.setdefault(element,Input.count(element))
-print({ Key : Value for Key , Value in sorted(Store.items()) })
+# Input = input("Enter your Statement ").split(" ")
+# SetInput = set(Input)
+# Store = {}
+# for element in SetInput :
+#     Store.setdefault(element,Input.count(element))
+# print({ Key : Value for Key , Value in sorted(Store.items()) })
 
 
 ##################################################################################################################################################################################################################################################
@@ -139,5 +139,5 @@ Question:
 
 Hints:
     Using the ** operator"""
-Input = int(input("Enter the number to square : "))
-print(Input**2)
+# Input = int(input("Enter the number to square : "))
+# print(Input**2)
