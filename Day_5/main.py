@@ -141,3 +141,4 @@ Hints:
     Using the ** operator"""
 # Input = int(input("Enter the number to square : "))
 # print(Input**2)
+
