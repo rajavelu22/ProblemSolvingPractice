@@ -1,13 +1,13 @@
 """Question:31
 Define a function which can generate and print a tuple where the value are square of numbers between 1 and 20 (both included). 
 """
-# List = []
+List = []
 
-# for i in range (1,21):
-#     x = int (i**2)
-#     List.append(x)
+for i in range (1,21):
+    x = int (i**2)
+    List.append(x)
 
-# print(tuple(List))
+print(tuple(List))
 
 ##################################################################################################################################################
 
@@ -15,9 +15,9 @@ Define a function which can generate and print a tuple where the value are squar
 With a given tuple (1,2,3,4,5,6,7,8,9,10), write a program to print the first half values in one line and the last half values in one line. 
 
 """
-# values = (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)
-# print(values[:5],end="")
-# print(values[-5:],end="")
+values = (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)
+print(values[:5],end="")
+print(values[-5:],end="")
 
 ##################################################################################################################################################
 
